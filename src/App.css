@@ -1,0 +1,38 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #b4b4f7;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 800px;
+  background-color: #dbb7f8;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(46, 4, 59, 0.1);
+  border-radius: 20px;
+}
+
+.header h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  color: #3d0c4e;
+  text-shadow: 2px 2px 4px rgba(87, 34, 117, 0.3);
+  text-align: center;
+}
+
+.sub-text {
+  font-style: italic;
+  color: #6b5181;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.content {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fcc3f7;
+  box-shadow: 0 0 10px rgba(71, 16, 63, 0.1);
+  border-radius: 5px;
+}
