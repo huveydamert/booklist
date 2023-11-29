@@ -10,10 +10,12 @@ const BookList = ({ books, removeBook }) => {
           <span role="img" aria-label="Heart Emoji" style={{ marginRight: '5px' }}>
             {heart}
           </span>
-            {book.title}{' '}
-            <span onClick={() => removeBook(book.id)} style={{ cursor: 'pointer', color: '#ff007f'}}>
-                X
-            </span>
+          <span className="book-title" onClick={() => removeBook(book.id)}>
+            {book.title}
+        </span>{' '}
+        <span onClick={() => removeBook(book.id)} className="remove-button">
+            X
+          </span>
         </li>
       ))}
     </ul>

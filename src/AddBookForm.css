@@ -28,3 +28,18 @@ form {
     background-color: #8facc8;
   }
   
+  /* AddBookForm.css or your stylesheet */
+.book-title {
+  cursor: pointer;
+  color: #4b2076;
+}
+
+.remove-button {
+  cursor: pointer;
+  transition: color 0.3s ease;
+  color: #8970f5;
+}
+
+.remove-button:hover {
+  color: #ff007f; /* Change to the desired color on hover */
+}
